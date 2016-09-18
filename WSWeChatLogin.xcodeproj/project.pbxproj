@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200366E01D8E99E900220A55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366DF1D8E99E900220A55 /* main.m */; };
+		200366E31D8E99E900220A55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366E21D8E99E900220A55 /* AppDelegate.m */; };
+		200366E61D8E99E900220A55 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366E51D8E99E900220A55 /* MasterViewController.m */; };
+		200366E91D8E99E900220A55 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366E81D8E99E900220A55 /* DetailViewController.m */; };
+		200366EC1D8E99E900220A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200366EA1D8E99E900220A55 /* Main.storyboard */; };
+		200366EE1D8E99E900220A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200366ED1D8E99E900220A55 /* Assets.xcassets */; };
+		200366F11D8E99E900220A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200366EF1D8E99E900220A55 /* LaunchScreen.storyboard */; };
+		200366FC1D8E99E900220A55 /* WSWeChatLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366FB1D8E99E900220A55 /* WSWeChatLoginTests.m */; };
+		200367071D8E99E900220A55 /* WSWeChatLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 200367061D8E99E900220A55 /* WSWeChatLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		200366F81D8E99E900220A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200366D31D8E99E900220A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200366DA1D8E99E900220A55;
+			remoteInfo = WSWeChatLogin;
+		};
+		200367031D8E99E900220A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200366D31D8E99E900220A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200366DA1D8E99E900220A55;
+			remoteInfo = WSWeChatLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200366DB1D8E99E900220A55 /* WSWeChatLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSWeChatLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200366DF1D8E99E900220A55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200366E11D8E99E900220A55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		200366E21D8E99E900220A55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		200366E41D8E99E900220A55 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		200366E51D8E99E900220A55 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		200366E71D8E99E900220A55 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		200366E81D8E99E900220A55 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		200366EB1D8E99E900220A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200366ED1D8E99E900220A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200366F01D8E99E900220A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		200366F21D8E99E900220A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200366F71D8E99E900220A55 /* WSWeChatLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSWeChatLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200366FB1D8E99E900220A55 /* WSWeChatLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWeChatLoginTests.m; sourceTree = "<group>"; };
+		200366FD1D8E99E900220A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200367021D8E99E900220A55 /* WSWeChatLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSWeChatLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200367061D8E99E900220A55 /* WSWeChatLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWeChatLoginUITests.m; sourceTree = "<group>"; };
+		200367081D8E99E900220A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200366D81D8E99E900220A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200366F41D8E99E900220A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200366FF1D8E99E900220A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200366D21D8E99E900220A55 = {
+			isa = PBXGroup;
+			children = (
+				200366DD1D8E99E900220A55 /* WSWeChatLogin */,
+				200366FA1D8E99E900220A55 /* WSWeChatLoginTests */,
+				200367051D8E99E900220A55 /* WSWeChatLoginUITests */,
+				200366DC1D8E99E900220A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200366DC1D8E99E900220A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200366DB1D8E99E900220A55 /* WSWeChatLogin.app */,
+				200366F71D8E99E900220A55 /* WSWeChatLoginTests.xctest */,
+				200367021D8E99E900220A55 /* WSWeChatLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200366DD1D8E99E900220A55 /* WSWeChatLogin */ = {
+			isa = PBXGroup;
+			children = (
+				200366E11D8E99E900220A55 /* AppDelegate.h */,
+				200366E21D8E99E900220A55 /* AppDelegate.m */,
+				200366E41D8E99E900220A55 /* MasterViewController.h */,
+				200366E51D8E99E900220A55 /* MasterViewController.m */,
+				200366E71D8E99E900220A55 /* DetailViewController.h */,
+				200366E81D8E99E900220A55 /* DetailViewController.m */,
+				200366EA1D8E99E900220A55 /* Main.storyboard */,
+				200366ED1D8E99E900220A55 /* Assets.xcassets */,
+				200366EF1D8E99E900220A55 /* LaunchScreen.storyboard */,
+				200366F21D8E99E900220A55 /* Info.plist */,
+				200366DE1D8E99E900220A55 /* Supporting Files */,
+			);
+			path = WSWeChatLogin;
+			sourceTree = "<group>";
+		};
+		200366DE1D8E99E900220A55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200366DF1D8E99E900220A55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		200366FA1D8E99E900220A55 /* WSWeChatLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				200366FB1D8E99E900220A55 /* WSWeChatLoginTests.m */,
+				200366FD1D8E99E900220A55 /* Info.plist */,
+			);
+			path = WSWeChatLoginTests;
+			sourceTree = "<group>";
+		};
+		200367051D8E99E900220A55 /* WSWeChatLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				200367061D8E99E900220A55 /* WSWeChatLoginUITests.m */,
+				200367081D8E99E900220A55 /* Info.plist */,
+			);
+			path = WSWeChatLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200366DA1D8E99E900220A55 /* WSWeChatLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2003670B1D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLogin" */;
+			buildPhases = (
+				200366D71D8E99E900220A55 /* Sources */,
+				200366D81D8E99E900220A55 /* Frameworks */,
+				200366D91D8E99E900220A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSWeChatLogin;
+			productName = WSWeChatLogin;
+			productReference = 200366DB1D8E99E900220A55 /* WSWeChatLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		200366F61D8E99E900220A55 /* WSWeChatLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2003670E1D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLoginTests" */;
+			buildPhases = (
+				200366F31D8E99E900220A55 /* Sources */,
+				200366F41D8E99E900220A55 /* Frameworks */,
+				200366F51D8E99E900220A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				200366F91D8E99E900220A55 /* PBXTargetDependency */,
+			);
+			name = WSWeChatLoginTests;
+			productName = WSWeChatLoginTests;
+			productReference = 200366F71D8E99E900220A55 /* WSWeChatLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		200367011D8E99E900220A55 /* WSWeChatLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200367111D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLoginUITests" */;
+			buildPhases = (
+				200366FE1D8E99E900220A55 /* Sources */,
+				200366FF1D8E99E900220A55 /* Frameworks */,
+				200367001D8E99E900220A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				200367041D8E99E900220A55 /* PBXTargetDependency */,
+			);
+			name = WSWeChatLoginUITests;
+			productName = WSWeChatLoginUITests;
+			productReference = 200367021D8E99E900220A55 /* WSWeChatLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200366D31D8E99E900220A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = warron;
+				TargetAttributes = {
+					200366DA1D8E99E900220A55 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					200366F61D8E99E900220A55 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 200366DA1D8E99E900220A55;
+					};
+					200367011D8E99E900220A55 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 200366DA1D8E99E900220A55;
+					};
+				};
+			};
+			buildConfigurationList = 200366D61D8E99E900220A55 /* Build configuration list for PBXProject "WSWeChatLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200366D21D8E99E900220A55;
+			productRefGroup = 200366DC1D8E99E900220A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200366DA1D8E99E900220A55 /* WSWeChatLogin */,
+				200366F61D8E99E900220A55 /* WSWeChatLoginTests */,
+				200367011D8E99E900220A55 /* WSWeChatLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200366D91D8E99E900220A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200366F11D8E99E900220A55 /* LaunchScreen.storyboard in Resources */,
+				200366EE1D8E99E900220A55 /* Assets.xcassets in Resources */,
+				200366EC1D8E99E900220A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200366F51D8E99E900220A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200367001D8E99E900220A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200366D71D8E99E900220A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200366E31D8E99E900220A55 /* AppDelegate.m in Sources */,
+				200366E61D8E99E900220A55 /* MasterViewController.m in Sources */,
+				200366E01D8E99E900220A55 /* main.m in Sources */,
+				200366E91D8E99E900220A55 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200366F31D8E99E900220A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200366FC1D8E99E900220A55 /* WSWeChatLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200366FE1D8E99E900220A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200367071D8E99E900220A55 /* WSWeChatLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		200366F91D8E99E900220A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200366DA1D8E99E900220A55 /* WSWeChatLogin */;
+			targetProxy = 200366F81D8E99E900220A55 /* PBXContainerItemProxy */;
+		};
+		200367041D8E99E900220A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200366DA1D8E99E900220A55 /* WSWeChatLogin */;
+			targetProxy = 200367031D8E99E900220A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		200366EA1D8E99E900220A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200366EB1D8E99E900220A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		200366EF1D8E99E900220A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200366F01D8E99E900220A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200367091D8E99E900220A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2003670A1D8E99E900220A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2003670C1D8E99E900220A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSWeChatLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2003670D1D8E99E900220A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSWeChatLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2003670F1D8E99E900220A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSWeChatLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSWeChatLogin.app/WSWeChatLogin";
+			};
+			name = Debug;
+		};
+		200367101D8E99E900220A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSWeChatLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSWeChatLogin.app/WSWeChatLogin";
+			};
+			name = Release;
+		};
+		200367121D8E99E900220A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSWeChatLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSWeChatLogin;
+			};
+			name = Debug;
+		};
+		200367131D8E99E900220A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSWeChatLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSWeChatLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200366D61D8E99E900220A55 /* Build configuration list for PBXProject "WSWeChatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200367091D8E99E900220A55 /* Debug */,
+				2003670A1D8E99E900220A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2003670B1D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2003670C1D8E99E900220A55 /* Debug */,
+				2003670D1D8E99E900220A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2003670E1D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2003670F1D8E99E900220A55 /* Debug */,
+				200367101D8E99E900220A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		200367111D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200367121D8E99E900220A55 /* Debug */,
+				200367131D8E99E900220A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200366D31D8E99E900220A55 /* Project object */;
+}
