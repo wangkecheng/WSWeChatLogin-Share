@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WXApi.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+//获取Appdelgate中登陆的信息
+@protocol WXDelegate <NSObject>
+
+-(void)loginSuccessByCode:(SendAuthResp *)code;
+-(void)shareSuccessByCode:(int) code;
+@end
+@interface AppDelegate : UIResponder <UIApplicationDelegate,WXApiDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic,weak)id<WXDelegate> wxDelegate;
 
 @end
 

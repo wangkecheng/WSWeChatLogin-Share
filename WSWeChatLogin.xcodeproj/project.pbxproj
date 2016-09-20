@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		200366E01D8E99E900220A55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366DF1D8E99E900220A55 /* main.m */; };
 		200366E31D8E99E900220A55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366E21D8E99E900220A55 /* AppDelegate.m */; };
-		200366E61D8E99E900220A55 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366E51D8E99E900220A55 /* MasterViewController.m */; };
-		200366E91D8E99E900220A55 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366E81D8E99E900220A55 /* DetailViewController.m */; };
 		200366EC1D8E99E900220A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200366EA1D8E99E900220A55 /* Main.storyboard */; };
 		200366EE1D8E99E900220A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200366ED1D8E99E900220A55 /* Assets.xcassets */; };
 		200366F11D8E99E900220A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200366EF1D8E99E900220A55 /* LaunchScreen.storyboard */; };
 		200366FC1D8E99E900220A55 /* WSWeChatLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 200366FB1D8E99E900220A55 /* WSWeChatLoginTests.m */; };
 		200367071D8E99E900220A55 /* WSWeChatLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 200367061D8E99E900220A55 /* WSWeChatLoginUITests.m */; };
+		200367231D8EA91A00220A55 /* WSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200367221D8EA91A00220A55 /* WSViewController.m */; };
+		20B6DEE41D8F9675001A09D6 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6DEE31D8F9675001A09D6 /* UserInfoModel.m */; };
+		20B6DEF01D8FC7A2001A09D6 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B6DEEF1D8FC7A2001A09D6 /* 12.png */; };
+		20FBE14A1D90377C0012472C /* WeixinPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FBE1491D90377C0012472C /* WeixinPayHelper.m */; };
+		20FBE14D1D9037950012472C /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FBE14C1D9037950012472C /* CommonUtil.m */; };
+		20FBE1511D9037C10012472C /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FBE1501D9037C10012472C /* GTMBase64.m */; };
+		E432B66A522693C00E98472A /* libPods-WSWeChatLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D96659E2EE86CABBC52796D /* libPods-WSWeChatLogin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +45,6 @@
 		200366DF1D8E99E900220A55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		200366E11D8E99E900220A55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		200366E21D8E99E900220A55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		200366E41D8E99E900220A55 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		200366E51D8E99E900220A55 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		200366E71D8E99E900220A55 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		200366E81D8E99E900220A55 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		200366EB1D8E99E900220A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		200366ED1D8E99E900220A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		200366F01D8E99E900220A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,23 @@
 		200367021D8E99E900220A55 /* WSWeChatLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSWeChatLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200367061D8E99E900220A55 /* WSWeChatLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWeChatLoginUITests.m; sourceTree = "<group>"; };
 		200367081D8E99E900220A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200367211D8EA91A00220A55 /* WSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSViewController.h; sourceTree = "<group>"; };
+		200367221D8EA91A00220A55 /* WSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSViewController.m; sourceTree = "<group>"; };
+		20B6DEE21D8F9675001A09D6 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		20B6DEE31D8F9675001A09D6 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		20B6DEEA1D8F9A2B001A09D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		20B6DEEF1D8FC7A2001A09D6 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		20FBE1481D90377C0012472C /* WeixinPayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeixinPayHelper.h; sourceTree = "<group>"; };
+		20FBE1491D90377C0012472C /* WeixinPayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeixinPayHelper.m; sourceTree = "<group>"; };
+		20FBE14B1D9037950012472C /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		20FBE14C1D9037950012472C /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		20FBE14E1D9037AB0012472C /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		20FBE14F1D9037C10012472C /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		20FBE1501D9037C10012472C /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		20FBE1521D9037D60012472C /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		3956A8AEDBF61179BE914DC2 /* Pods-WSWeChatLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSWeChatLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSWeChatLogin/Pods-WSWeChatLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		7D96659E2EE86CABBC52796D /* libPods-WSWeChatLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSWeChatLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D69D9FB5536F135EC4BD8F /* Pods-WSWeChatLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSWeChatLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSWeChatLogin/Pods-WSWeChatLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E432B66A522693C00E98472A /* libPods-WSWeChatLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +107,8 @@
 				200366FA1D8E99E900220A55 /* WSWeChatLoginTests */,
 				200367051D8E99E900220A55 /* WSWeChatLoginUITests */,
 				200366DC1D8E99E900220A55 /* Products */,
+				B52340AB68D1884BFF79BE04 /* Pods */,
+				A52DA3646354728B9126B90E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,14 +125,13 @@
 		200366DD1D8E99E900220A55 /* WSWeChatLogin */ = {
 			isa = PBXGroup;
 			children = (
+				20B6DEE71D8F96C9001A09D6 /* 头文件(公用) */,
+				20B6DEE01D8F962D001A09D6 /* 用户数据模型 */,
+				20B6DEDF1D8F9620001A09D6 /* 控制器 */,
 				200366E11D8E99E900220A55 /* AppDelegate.h */,
 				200366E21D8E99E900220A55 /* AppDelegate.m */,
-				200366E41D8E99E900220A55 /* MasterViewController.h */,
-				200366E51D8E99E900220A55 /* MasterViewController.m */,
-				200366E71D8E99E900220A55 /* DetailViewController.h */,
-				200366E81D8E99E900220A55 /* DetailViewController.m */,
-				200366EA1D8E99E900220A55 /* Main.storyboard */,
 				200366ED1D8E99E900220A55 /* Assets.xcassets */,
+				200366EA1D8E99E900220A55 /* Main.storyboard */,
 				200366EF1D8E99E900220A55 /* LaunchScreen.storyboard */,
 				200366F21D8E99E900220A55 /* Info.plist */,
 				200366DE1D8E99E900220A55 /* Supporting Files */,
@@ -145,6 +165,58 @@
 			path = WSWeChatLoginUITests;
 			sourceTree = "<group>";
 		};
+		20B6DEDF1D8F9620001A09D6 /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				200367211D8EA91A00220A55 /* WSViewController.h */,
+				200367221D8EA91A00220A55 /* WSViewController.m */,
+			);
+			name = "控制器";
+			sourceTree = "<group>";
+		};
+		20B6DEE01D8F962D001A09D6 /* 用户数据模型 */ = {
+			isa = PBXGroup;
+			children = (
+				20B6DEE21D8F9675001A09D6 /* UserInfoModel.h */,
+				20B6DEE31D8F9675001A09D6 /* UserInfoModel.m */,
+			);
+			name = "用户数据模型";
+			sourceTree = "<group>";
+		};
+		20B6DEE71D8F96C9001A09D6 /* 头文件(公用) */ = {
+			isa = PBXGroup;
+			children = (
+				20FBE1521D9037D60012472C /* GTMDefines.h */,
+				20FBE14F1D9037C10012472C /* GTMBase64.h */,
+				20FBE1501D9037C10012472C /* GTMBase64.m */,
+				20FBE14E1D9037AB0012472C /* Constant.h */,
+				20FBE14B1D9037950012472C /* CommonUtil.h */,
+				20FBE14C1D9037950012472C /* CommonUtil.m */,
+				20FBE1481D90377C0012472C /* WeixinPayHelper.h */,
+				20FBE1491D90377C0012472C /* WeixinPayHelper.m */,
+				20B6DEEF1D8FC7A2001A09D6 /* 12.png */,
+				20B6DEEA1D8F9A2B001A09D6 /* PrefixHeader.pch */,
+			);
+			name = "头文件(公用)";
+			sourceTree = "<group>";
+		};
+		A52DA3646354728B9126B90E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D96659E2EE86CABBC52796D /* libPods-WSWeChatLogin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B52340AB68D1884BFF79BE04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3956A8AEDBF61179BE914DC2 /* Pods-WSWeChatLogin.debug.xcconfig */,
+				B7D69D9FB5536F135EC4BD8F /* Pods-WSWeChatLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2003670B1D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLogin" */;
 			buildPhases = (
+				5A8010D6F9531A6B3488C887 /* [CP] Check Pods Manifest.lock */,
 				200366D71D8E99E900220A55 /* Sources */,
 				200366D81D8E99E900220A55 /* Frameworks */,
 				200366D91D8E99E900220A55 /* Resources */,
+				D0516AAC2DCD90E478BC4F6E /* [CP] Embed Pods Frameworks */,
+				8A668E6BCB48D62A67DAE22A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +287,7 @@
 				TargetAttributes = {
 					200366DA1D8E99E900220A55 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2WJJ6Z5DGD;
 					};
 					200366F61D8E99E900220A55 = {
 						CreatedOnToolsVersion = 7.3;
@@ -248,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B6DEF01D8FC7A2001A09D6 /* 12.png in Resources */,
 				200366F11D8E99E900220A55 /* LaunchScreen.storyboard in Resources */,
 				200366EE1D8E99E900220A55 /* Assets.xcassets in Resources */,
 				200366EC1D8E99E900220A55 /* Main.storyboard in Resources */,
@@ -270,15 +347,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A8010D6F9531A6B3488C887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A668E6BCB48D62A67DAE22A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSWeChatLogin/Pods-WSWeChatLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0516AAC2DCD90E478BC4F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSWeChatLogin/Pods-WSWeChatLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		200366D71D8E99E900220A55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				200366E31D8E99E900220A55 /* AppDelegate.m in Sources */,
-				200366E61D8E99E900220A55 /* MasterViewController.m in Sources */,
 				200366E01D8E99E900220A55 /* main.m in Sources */,
-				200366E91D8E99E900220A55 /* DetailViewController.m in Sources */,
+				20B6DEE41D8F9675001A09D6 /* UserInfoModel.m in Sources */,
+				20FBE14A1D90377C0012472C /* WeixinPayHelper.m in Sources */,
+				20FBE14D1D9037950012472C /* CommonUtil.m in Sources */,
+				200367231D8EA91A00220A55 /* WSViewController.m in Sources */,
+				20FBE1511D9037C10012472C /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,22 +547,28 @@
 		};
 		2003670C1D8E99E900220A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3956A8AEDBF61179BE914DC2 /* Pods-WSWeChatLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WJJ6Z5DGD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WSWeChatLogin/PrefixHeader.pch";
 				INFOPLIST_FILE = WSWeChatLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangXiang.Login-With-WeiXin123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		2003670D1D8E99E900220A55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D69D9FB5536F135EC4BD8F /* Pods-WSWeChatLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WJJ6Z5DGD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WSWeChatLogin/PrefixHeader.pch";
 				INFOPLIST_FILE = WSWeChatLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = warron.WSWeChatLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = "YangXiang.Login-With-WeiXin123";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -504,6 +638,7 @@
 				2003670D1D8E99E900220A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2003670E1D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +647,7 @@
 				200367101D8E99E900220A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		200367111D8E99E900220A55 /* Build configuration list for PBXNativeTarget "WSWeChatLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +656,7 @@
 				200367131D8E99E900220A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
